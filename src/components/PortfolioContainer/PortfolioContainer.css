@@ -1,5 +1,5 @@
 .card {
-    max-width: 540px !important;
+    max-width: 400px !important;
 }
 .section-portafolio{
     margin: 100px 20px;
@@ -8,6 +8,9 @@
     text-align: center;
     padding: 30px;
     margin: 10px;
+}
+.card-container img{
+    height: 100%;
 }
 .card-container{
     display: flex;
