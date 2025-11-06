@@ -1,0 +1,107 @@
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap:2rem;
+    padding: 28px 8%;
+}
+.hero-text{
+    text-align: center;
+}
+.hero-text h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.hero-text h1{
+    font-size: 50px;
+    font-family: 'Roboto Mono',monospace;
+    line-height: 1;
+    margin-top: 20px;
+}
+.hero-text p{
+    font-size: 100%;
+    margin-bottom: 40px;
+    line-height: 2;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.hero-img img{
+    border-radius: 60%;
+    width: 400px;
+    margin: 10% 0 0 10%;
+    height: auto;
+    transition: all 5s linear;
+}
+.hero-img img:hover{
+    width: 440px;
+    opacity: 0.6;
+}
+.hero-img{
+    text-align: center;
+}
+.hero-text a{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #84848445;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+.hero-text a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transform: translateX(6px);
+}
+.hero-text a.contact{
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 33px;
+}
+
+
+@media (max-width: 1040px) {   
+.hero{
+    padding: 35px 4%;;
+}   
+.hero-img img{
+    width: 300px;
+}
+.hero-img img:hover{
+    width: 320px;
+}
+.hero-text h4{
+    font-size: 17px;
+}
+.hero-text h1{
+    font-size: 45px;
+}
+.hero-text p{
+    font-size: 95%;
+}
+}
+
+/*media 778 px*/
+@media (max-width:778px){
+    .hero{
+        grid-template-columns: 1fr;
+        gap:1rem;
+    }
+    .hero-img img{
+        margin: 0;
+    }
+    .hero{
+        padding: 90px 5%;
+    }
+    .hero-text a{
+        margin-bottom: 30px;
+    }
+    
+}

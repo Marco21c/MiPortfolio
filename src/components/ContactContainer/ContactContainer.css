@@ -1,0 +1,22 @@
+.iconos{
+  position: absolute;
+  top:50vh;
+  padding: 0 1%;
+  transform: translateY(-50%);
+}
+.iconos i{
+    display: block;
+    margin: 50px 0;
+    font-size: 30px;
+    transition: all .5s linear;
+}
+.iconos i:hover{
+    color: #ffffffb3;
+    font-size: 28px;
+    transform: translateX(5px);
+}
+@media (max-width: 1040px) {
+    .iconos {
+     display: none;
+} 
+}

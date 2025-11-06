@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre": "Nortecno",
+    "descripcion": "E-comerce de productos importados. Aplicando tecnologias como React Js, JavaScript, Bootstrap, FireBase, entre otras.",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_845159-MLA95350612515_102025-F.webp",
+    "link": "https://nortecno.netlify.app"
+  },
+  {
+    "id": 1,
+    "nombre": "Gestion de Gimnasio",
+    "descripcion": "E-comerce de productos importados. Aplicando tecnologias como React Js, JavaScript, Bootstrap, FireBase, entre otras.",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_845159-MLA95350612515_102025-F.webp",
+    "link": "https://nortecno.netlify.app"
+  }
+]

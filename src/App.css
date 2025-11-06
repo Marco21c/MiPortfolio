@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace !important;
+    list-style: none; 
+    text-decoration: none !important;
+    color:white !important;
+}
+body{
+     background: linear-gradient(245.59deg,#313c49 0%, #242424 25%,#131313 75%);
+}
+
+
