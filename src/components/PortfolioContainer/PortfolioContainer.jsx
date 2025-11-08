@@ -12,6 +12,7 @@ export default function PortfolioContainer() {
                 <ProyectoCardContainer key={p.id} proyecto={p}/>
                )) }
             </div>
+           
        </section>
     
     </>

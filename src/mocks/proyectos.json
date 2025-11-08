@@ -9,7 +9,7 @@
   {
     "id": 1,
     "nombre": "Gestion de Gimnasio",
-    "descripcion": "E-comerce de productos importados. Aplicando tecnologias como React Js, JavaScript, Bootstrap, FireBase, entre otras.",
+    "descripcion": "App web para la gestion de gimnasio. Aplicando tecnologias como Angular, NodeJs, Mongodb, Api Rest, entre otras.",
     "imagen": "/src/assets/gimnasio.avif",
     "link": "https://nortecno.netlify.app"
   }

@@ -7,6 +7,7 @@ import './App.css'
 import ScrollReveal from 'scrollreveal'
 import 'boxicons/css/boxicons.min.css';
 import { useEffect } from 'react';
+import Footer from '../src/components/FooterContainer/Footer'
 function App() {
      
     useEffect(()=>{
@@ -29,6 +30,7 @@ function App() {
          <Route path='/' element={<HomeContainer/>}></Route>
          <Route path='/Portafolio' element={<PortfolioContainer/>}></Route>
        </Routes>
+       <Footer/>
       </>
        
     )
