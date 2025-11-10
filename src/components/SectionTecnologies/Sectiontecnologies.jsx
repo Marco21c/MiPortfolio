@@ -5,7 +5,7 @@ import javascriptLogo from '/src/assets/javascript.png';
 import nodejs from '/src/assets/nodejs.png'
 import mongo from  '/src/assets/mongo.png'
 import sass from  '/src/assets/sass.png'
-import bootstrap from '/src/assets/bootstrap.png'
+import bootstrap from '/src/assets/Bootstrap.png'
 import java from '/src/assets/java.png'
 import linux from '/src/assets/linux.png'
 import c from '/src/assets/c.png'
