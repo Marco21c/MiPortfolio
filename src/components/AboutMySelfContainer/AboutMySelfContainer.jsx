@@ -1,5 +1,6 @@
 import './AboutMySelfContainer.css'
 import Animation from '../Animation/Animation'
+import img from "/src/assets/fondo.jpg" 
 export default function AboutMySelfContainer() {
   return (
     <>
@@ -13,7 +14,7 @@ export default function AboutMySelfContainer() {
             conocimientos adquiridos a lo largo de mi formación profesional.</p>          
     </div>
     <div>
-        <img src="/src/assets/fondo.jpg" alt="fondo" className='img-section'/>
+        <img src={img} alt="fondo" className='img-section'/>
         <Animation/>
     </div>
     <div className="hero-text line-life">

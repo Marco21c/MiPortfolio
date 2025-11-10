@@ -1,7 +1,7 @@
 import './HomeContainer.css'
 import { Link } from 'react-router-dom'
 import SectionTecnologies from '../SectionTecnologies/Sectiontecnologies'
-
+import portada from '/src/assets/portada.png'
 export default function HomeContainer() {
   return (
       <>
@@ -18,7 +18,7 @@ export default function HomeContainer() {
            
         </div>
         <div className="hero-img">
-         <img src='/src/assets/portada.png' alt="imagen"/>
+         <img src={portada} alt="imagen"/>
         </div>
 
        <div className='m-5'>
