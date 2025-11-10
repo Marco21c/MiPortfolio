@@ -1,6 +1,6 @@
 import './HomeContainer.css'
 import { Link } from 'react-router-dom'
-import SectionTecnologies from '../SectionTecnologies/sectiontecnologies'
+import SectionTecnologies from '../SectionTecnologies/Sectiontecnologies'
 
 export default function HomeContainer() {
   return (
