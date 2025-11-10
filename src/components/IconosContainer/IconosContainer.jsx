@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 
-export default function Example({img}) {
+export default function IconosContainer({img}) {
 
   return (
     <motion.img
       src={img}
       alt={"logo"}
       drag
-      dragConstraints={{ top: -100, right: 70, bottom: 0, left: -100 }}
+      dragConstraints={{ top: -100, right: 50, bottom: 0, left: -100 }}
       dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
       dragElastic={0.5}
       whileTap={{ cursor: "grabbing" }}

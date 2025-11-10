@@ -17,10 +17,10 @@ export default function NavbarContainer() {
        <div className='bx bx-menu' id="menu-icon" ref={menuRef} onClick={cambiarIcon}></div>
 
        <ul className='navlist'  ref={navListRef}>
-            <li> <Link  to='/'>Inicio </Link></li>
-             <li> <Link  to='/Portafolio' >Proyectos </Link></li>
-            <li> <a  href="#acercade">Acerca De Mi</a></li>
-            <li> <a  href="#contacto">Contacto </a></li>
+            <li> <Link  to={'/'}>Inicio </Link></li>
+             <li> <Link  to={'/Portafolio'} >Proyectos </Link></li>
+            <li> <Link  to={'/SobreMi'}>Sobre Mi</Link></li>
+            <li> <Link  to={"/Contacto"}>Contacto </Link></li>
         </ul>
     
     </header>

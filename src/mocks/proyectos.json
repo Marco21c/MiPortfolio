@@ -7,10 +7,17 @@
     "link": "https://nortecno.netlify.app"
   },
   {
-    "id": 1,
+    "id": 2,
     "nombre": "Gestion de Gimnasio",
     "descripcion": "App web para la gestion de gimnasio. Aplicando tecnologias como Angular, NodeJs, Mongodb, Api Rest, entre otras.",
     "imagen": "/src/assets/gimnasio.avif",
-    "link": "https://nortecno.netlify.app"
+    "link": "https://gestiongimnasio.netlify.app/"
+  },
+  {
+    "id": 3,
+    "nombre": "Clima por ciudad",
+    "descripcion": "Sitio web para ver el clima de tu ciudad. Se realizo con tecnologias basicas de desarrollo web, javascript, html y css.",
+    "imagen": "/src/assets/clima.jpg",
+    "link": "https://appweb-clima.netlify.app/"
   }
 ]

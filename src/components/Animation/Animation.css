@@ -1,0 +1,32 @@
+.imagen-flotante {
+  width: 250px;
+  border-radius: 12px;
+  width: 35%;
+  animation: flotar 3.5s ease-in-out infinite;
+  position: fixed;
+  top: 20%;
+  left: 60%;
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px ;
+}
+@media (max-width:720px) {
+ .imagen-flotante {
+  
+  top: 60%;
+  left: 60%;
+}
+}
+@keyframes flotar {
+  0% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-15px) scale(1.02);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+}
