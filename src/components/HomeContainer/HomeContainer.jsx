@@ -6,7 +6,7 @@ export default function HomeContainer() {
   return (
       <>
       <section className="hero">
-        <div className="hero-text">
+        <div className="hero-text heroContent">
            <h4> Condori Marcos Elias</h4>
            <h1> Developer Full Stack</h1> 
            <p> Soy Analista Programador Universitario y estudiante de Ingeniería Informática en 
@@ -21,9 +21,9 @@ export default function HomeContainer() {
          <img src={portada} alt="imagen"/>
         </div>
 
-       <div>
-         <h1 className='text-center hero-text'> Tecnologias</h1>
-         <p className='text-center hero-text mt-4'> A lo largo de mi formación he podido aprender y dominar ciertas tecnologías 
+       <div className='text-center hero-text p-4'>
+         <h1 > Tecnologias</h1>
+         <p className='mt-4'> A lo largo de mi formación he podido aprender y dominar ciertas tecnologías 
           que me han permitido crear diferentes proyectos personales y en equipo, aplicando buenas prácticas de programación 
           y gestionando tanto la lógica de negocio como la interfaz de usuario. </p>
         </div>  

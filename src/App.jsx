@@ -16,7 +16,6 @@ function App() {
     const sr =ScrollReveal({
     distance: '65px',
     duraction: 2000,
-    delay: 450,
     reset: true
     })
      sr.reveal('.hero-text', {delay: 300,origin: 'top'})

@@ -9,22 +9,22 @@
     gap:2rem;
      padding: 17px 4%;
 }
-.hero-text{
+.heroContent{
     text-align: center;
     padding: 20px 40px;
-    margin: 2%;
+    margin:  2% 0;
 }
-.hero-text h4{
+.heroContent h4{
     font-size: 22px;
     font-weight: 500;
 }
-.hero-text h1{
+.heroContent h1{
     font-size: 50px;
     font-family: 'Roboto Mono',monospace;
     line-height: 1;
     margin-top: 20px;
 }
-.hero-text p{
+.heroContent p{
     font-size: 100%;
     margin-bottom: 40px;
     line-height: 2;
@@ -45,7 +45,7 @@
 .hero-img{
     text-align: center;
 }
-.hero-text a{
+.heroContent a{
     display: inline-block;
     padding: 15px 30px;
     background-color: #84848445;
@@ -57,18 +57,18 @@
     text-transform: uppercase;
     transition: all .5s ease;
 }
-.hero-text a:hover{
+.heroContent a:hover{
     background-color: transparent;
     border: 1px solid white;
     transform: translateX(6px);
 }
-.hero-text a.contact{
+.heroContent a.contact{
     border: 1px solid white;
     background-color: transparent;
     margin: 33px;
 }
 .section-tecno{
-     margin-top: 40px;
+     margin-top: 20px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -86,33 +86,30 @@
 .hero-img img:hover{
     width: 320px;
 }
-.hero-text h4{
+.heroContent h4{
     font-size: 17px;
 }
-.hero-text h1{
+.heroContent h1{
     font-size: 45px;
 }
-.hero-text p{
+.heroContent p{
     font-size: 95%;
 }
-.hero-text a.contact{
+.heroContent a.contact{
    margin: 10px;
 }
 }
 
-/*media 778 px*/
 @media (max-width:850px){
     .hero{
         grid-template-columns: 1fr;
         gap:1rem;
+        padding: 90px 1%;
     }
     .hero-img img{
         margin: 0;
     }
-    .hero{
-        padding: 90px 1%;
-    }
-    .hero-text a{
+    .heroContent a{
         margin-bottom: 30px;
     }
     

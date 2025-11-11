@@ -1,3 +1,4 @@
+import './ProyectoCardContainer.css'
 
 export default function ProyectoCardContainer({proyecto}) {
   return (
