@@ -65,16 +65,18 @@
 .hero-text a.contact{
     border: 1px solid white;
     background-color: transparent;
-    margin-left: 33px;
+    margin: 33px;
 }
 .section-tecno{
-     display: flex;
-     justify-content: center;
-     align-items: center;
      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 7%;
 }
 
-@media (max-width: 1040px) {   
+@media (max-width: 1060px) {   
 .hero{
     padding: 35px 1%;
 }   
@@ -93,10 +95,13 @@
 .hero-text p{
     font-size: 95%;
 }
+.hero-text a.contact{
+   margin: 10px;
+}
 }
 
 /*media 778 px*/
-@media (max-width:778px){
+@media (max-width:850px){
     .hero{
         grid-template-columns: 1fr;
         gap:1rem;

@@ -7,7 +7,7 @@ export default function IconosContainer({img}) {
       src={img}
       alt={"logo"}
       drag
-      dragConstraints={{ top: -100, right: 50, bottom: 0, left: -100 }}
+      dragConstraints={{ top: -100, right: 40, bottom: 0, left: -90 }}
       dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
       dragElastic={0.5}
       whileTap={{ cursor: "grabbing" }}
