@@ -7,6 +7,7 @@ export default function ContactContainer() {
         <ul>
         <a  href="https://www.linkedin.com/in/marcos-condori-23c/" target="_blank"><i className='bx bxl-linkedin-square' ></i></a>
         <a  href="https://github.com/Marco21c" target="_blank"><i className='bx bxl-github'></i></a>
+        <a  href="https://gitlab.com/Marcos21c" target="_blank"><i className='bx bxl-gitlab'></i></a>
         <Link to='/Contacto' > <i className='bx bxl-gmail' ></i></Link>
         </ul> 
     </div>
