@@ -7,6 +7,9 @@
     padding-right: 10px ;
     border-right: 2px solid gray;
 }
+.hero{
+     margin-top: 70px;
+}
 @media (max-width:720px) {
     .img-section{
     opacity: 100%;

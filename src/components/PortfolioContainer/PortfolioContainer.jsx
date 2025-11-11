@@ -7,9 +7,8 @@ export default function PortfolioContainer() {
     <>
        <section className='section-portafolio'>
              <h1>Proyectos Destacados</h1>
-             <p className='text-center subtitle'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, quisquam praesentium expedita 
-              incidunt beatae ut nostrum quaerat nihil odit neque voluptates in quos reiciendis velit
-               voluptate odio itaque pariatur blanditiis.</p>
+             <p className='text-center subtitle'>A continuación, se presentan algunos de los proyectos que desarrollé 
+              durante mi formación y práctica profesional, aplicando diferentes tecnologías y metodologías de desarrollo web y software.</p>
              <div className='card-container'>
             {proyectos.map((p)=>(
                 <ProyectoCardContainer key={p.id} proyecto={p}/>

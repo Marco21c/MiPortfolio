@@ -7,10 +7,12 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap:2rem;
-    padding: 28px 8%;
+     padding: 17px 4%;
 }
 .hero-text{
     text-align: center;
+    padding: 20px 40px;
+    margin: 2%;
 }
 .hero-text h4{
     font-size: 22px;
@@ -69,13 +71,12 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-top: 60px;
-     margin-bottom: 20px;
+     margin-top: 40px;
 }
 
 @media (max-width: 1040px) {   
 .hero{
-    padding: 35px 4%;;
+    padding: 35px 1%;
 }   
 .hero-img img{
     width: 300px;
@@ -104,7 +105,7 @@
         margin: 0;
     }
     .hero{
-        padding: 90px 5%;
+        padding: 90px 1%;
     }
     .hero-text a{
         margin-bottom: 30px;

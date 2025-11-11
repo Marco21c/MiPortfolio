@@ -25,7 +25,7 @@ export default function sectiontecnologies() {
 
     return (
 
-        <div >
+        <div className='section'>
           {listImg.map((img, index) => (
             <IconosContainer key={index} img={img} />
           ))}

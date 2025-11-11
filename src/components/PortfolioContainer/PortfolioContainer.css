@@ -16,6 +16,7 @@
 .subtitle{
     font-family: 'Roboto Mono',monospace;
      padding: 20px 150px;
+     margin: 10px 20px;
 }
 .card-container img{
     height: 200px;
