@@ -43,16 +43,14 @@ export default function AboutMySelfContainer() {
              <li className='hero-text'>
               <h5> 🎓 CURSO DE DESARROLLO FRONTEND </h5>
               <h6> Digital house (Octubre 2024 - Enero 2025)  </h6>
-               <p> Formación sólida en ciencias básicas y tecnologías aplicadas.
-                 Capacitación en gestión de proyectos, toma de decisiones técnicas y desarrollo de soluciones informáticas integrales.
+               <p> Consumo de apis externas implementando las tecnologias basicas del desarrollo frontend.
                 </p> 
                <p> TECNOLOGIAS APRENDIDAS: HTML | CSS | Javascript </p>
              </li>
              <li className='hero-text'>
               <h5> 🎓 CURSO DE REACT JS </h5>
               <h6> Coder house (Septiembre 2025 - Octubre 2025)  </h6>
-               <p> Formación sólida en ciencias básicas y tecnologías aplicadas.
-                 Capacitación en gestión de proyectos, toma de decisiones técnicas y desarrollo de soluciones informáticas integrales.
+               <p> Desarrollo de frontend con react, utilizando los conceptos de este framework.
                 </p>
                <p> TECNOLOGIAS APRENDIDAS: REACT JS | FIREBASE </p>
               

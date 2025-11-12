@@ -28,7 +28,7 @@ export function useProjects() {
   },
    {
     "id": 4,
-    "nombre": "App para Estacionamientos",
+    "nombre": "Aplicación para Estacionamientos",
     "descripcion": "Aplicación desarrollada en .NET con WPF y C#. Ideal para gestionar los vehículos que ingresan y egresan de un estacionamiento permitiendo la gestión del mismo, también la de los usuarios y los clientes. Esta aplicación se almacena en una base de datos SQL Server.",
     "imagen": parkin,
     "link": "#"
