@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
-import ecommerce from '/src/assets/ecomerce.jpg'
+import ecommerce from '/src/assets/ecomerce.avif'
 import gimnasio from '/src/assets/gimnasio.avif'
-import clima from '/src/assets/clima.jpg'
+import clima from '/src/assets/clima.avif'
 import parkin from '/src/assets/parkin.webp'
 import homebanking from '/src/assets/homebanking.webp'
 import empleo from '/src/assets/empleo.webp'

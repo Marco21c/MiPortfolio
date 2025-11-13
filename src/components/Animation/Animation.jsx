@@ -1,5 +1,5 @@
 import './Animation.css'
-import robot from '/src/assets/about.webp'
+import robot from '/src/assets/about.avif'
 export default function ImagenFlotante() {
   return (
     <div>
