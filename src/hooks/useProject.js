@@ -3,6 +3,9 @@ import ecommerce from '/src/assets/ecomerce.jpg'
 import gimnasio from '/src/assets/gimnasio.avif'
 import clima from '/src/assets/clima.jpg'
 import parkin from '/src/assets/parkin.webp'
+import homebanking from '/src/assets/homebanking.webp'
+import empleo from '/src/assets/empleo.webp'
+
 export function useProjects() {
   const projects = [
   {
@@ -31,7 +34,21 @@ export function useProjects() {
     "nombre": "Aplicación para Estacionamientos",
     "descripcion": "Aplicación desarrollada en .NET con WPF y C#. Ideal para gestionar los vehículos que ingresan y egresan de un estacionamiento permitiendo la gestión del mismo, también la de los usuarios y los clientes. Esta aplicación se almacena en una base de datos SQL Server.",
     "imagen": parkin,
-    "link": "#"
+    "link": "https://github.com/Marco21c/ProyectoParking.git"
+  },
+   {
+    "id": 5,
+    "nombre": "Backend Simulador de Homebanking",
+    "descripcion": "Backend desarrollada en Java con Sprint Boot, utilizando Patrones de diseño  (MVC, Repository, DTO), el paradigma orientado a objetos, git como herramienta para el trabajo colaborativo y postman para la prueba de api’s. Este mismo simula el proceso interno de una entidad bancaria.",
+    "imagen": homebanking,
+    "link": "https://gitlab.com/Marcos21c/practico9"
+  },
+  {
+    "id": 6,
+    "nombre": "Plataforma Busqueda de empleo",
+    "descripcion": "Backend Desarrollado en Java con Sprint Boot, utilizando una bd local almacenada en memoria, esta aplicacion se desarrollo para practicar los conceptos de java, utilizando sus templates.",
+    "imagen": empleo,
+    "link": "https://github.com/Marco21c/TrabajoFinal_Grupo18.git"
   }
 ]
  
